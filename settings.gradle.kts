@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "Formz"
 include(":compose-example")
 include(":mdc-example")
+include(":formz")
