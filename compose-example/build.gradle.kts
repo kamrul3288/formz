@@ -50,9 +50,13 @@ android {
 }
 
 dependencies {
+    implementation(projects.formz)
+
     implementation(libs.core.ktx)
     implementation(libs.lifecycle.runtime.ktx)
     implementation(libs.activity.compose)
+    implementation(libs.lifecycle.compose.viewmodel)
+    implementation(libs.lifecycle.compose.runtime)
     implementation(platform(libs.compose.bom))
     implementation(libs.ui)
     implementation(libs.ui.graphics)

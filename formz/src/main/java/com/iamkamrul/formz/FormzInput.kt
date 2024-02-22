@@ -21,6 +21,10 @@ abstract class FormzInput<T:Any,E> {
         return validator(value) == null
     }
 
+    fun isError():Boolean{
+        return if (isPure) false else validator(value) != null
+    }
+
     fun displayError():E?{
         return if (isPure) null else validator(value)
     }
