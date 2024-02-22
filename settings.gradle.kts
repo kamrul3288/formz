@@ -13,7 +13,8 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Formz"
+rootProject.name = "FormzApp"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":compose-example")
 include(":mdc-example")
 include(":formz")
