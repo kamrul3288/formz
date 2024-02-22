@@ -35,4 +35,5 @@ constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayo
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 androidLibrary = { id = "com.android.library", version.ref = "agp" }
+mavepublish = { id = "maven.publish", version = "unspecified"}
 
