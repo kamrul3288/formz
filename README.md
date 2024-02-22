@@ -1,6 +1,8 @@
 # Formz [![](https://jitpack.io/v/kamrul3288/formz.svg)](https://jitpack.io/#kamrul3288/formz)
 Meet Formz,  aims to simplify form representation and validation in a generic way.
 
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTF1eW82OHVheHdlNTJiaHZ1bXBpdXhuazhwaWl4c25yOWM0NzkwdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Rutixd2qCmQwtWvweD/giphy.gif)
+
 # How to
 Step 1. Add the JitPack repository to your build file
 ```gradle
