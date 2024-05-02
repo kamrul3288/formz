@@ -45,9 +45,12 @@ dependencies {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            groupId = "com.github.kamrul3288"
-            artifactId = "formz"
-            version = "1.0.0"
+           afterEvaluate{
+               from(components["release"])
+               groupId = "com.github.kamrul3288"
+               artifactId = "formz"
+               version = "1.0.1"
+           }
         }
     }
 }
