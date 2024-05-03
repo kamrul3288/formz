@@ -4,18 +4,22 @@ Meet Formz,  aims to simplify form representation and validation in a generic wa
 ![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTF1eW82OHVheHdlNTJiaHZ1bXBpdXhuazhwaWl4c25yOWM0NzkwdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Rutixd2qCmQwtWvweD/giphy.gif)
 
 # How to
-Step 1. Add the JitPack repository to your build file
+Step 1. Add the JitPack repository to your settings.gradle.kts build file.
 ```gradle
-allprojects {
-  repositories {
-    maven {url 'https://jitpack.io'}
-  }
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven{
+            uri("https://jitpack.io")
+        }
+    }
 }
 ```
 Step 2. Add the dependency
 ```gradle
 dependencies {
-    implementation 'com.github.kamrul3288:formz:VERSION'
+    implementation("com.github.kamrul3288:formz:1.0.2")
 }
  ```
 ## Create a FormzInput
